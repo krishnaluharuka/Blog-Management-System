@@ -19,8 +19,8 @@ class UsersSeeder extends Seeder
              //admin
             [
                 'name'=>'Krishna Luharuka',
-                'username'=>'Krrish',
-                'email'=>'krishnaluharuka11@gmail.com',
+                'username'=>'Admin',
+                'email'=>'admin@gmail.com',
                 'password'=> Hash::make('Ad@12345'),
                 'role'=>'admin',
                 'status'=>'active'
@@ -28,7 +28,7 @@ class UsersSeeder extends Seeder
             [
                 'name'=>'Editor',
                 'username'=>'Editor',
-                'email'=>'rahdhekrishnaa@gmail.com',
+                'email'=>'editor@gmail.com',
                 'password'=>Hash::make('Ad@12345'),
                 'role'=>'editor',
                 'status'=>'active'
@@ -36,7 +36,7 @@ class UsersSeeder extends Seeder
             [
                 'name'=>'Author',
                 'username'=>'Author',
-                'email'=>'krishnaluharuka.xdezo@gmail.com',
+                'email'=>'author@gmail.com',
                 'password'=>Hash::make('Ad@12345'),
                 'role'=>'author',
                 'status'=>'active'
@@ -44,7 +44,7 @@ class UsersSeeder extends Seeder
             [
                 'name'=>'User',
                 'username'=>'User',
-                'email'=>'arohimittal00@gmail.com',
+                'email'=>'user@gmail.com',
                 'password'=>Hash::make('Ad@12345'),
                 'role'=>'user',
                 'status'=>'active'
